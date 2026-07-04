@@ -137,6 +137,34 @@ header {
 .ts-card-mix .ts-card-desc em { color: var(--accent2); }
 .ts-card-count { font-size: 0.75rem; color: #ffffff35; margin-top: 4px; }
 
+/* ── Topic tabs ── */
+#topic-tabs {
+  display: flex;
+  background: var(--surface);
+  border-bottom: 1px solid #ffffff0f;
+  padding: 0 12px;
+  gap: 4px;
+}
+
+.tab-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: color 0.15s, border-color 0.15s;
+}
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 /* ── Progress bar ── */
 #progress-bar-wrap {
   height: 3px;

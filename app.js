@@ -36,6 +36,7 @@ const elOverlayDone= document.getElementById('overlay-done');
 const elCycleStats = document.getElementById('cycle-stats');
 const elOverlayMenu= document.getElementById('overlay-menu');
 const elGlobalStats= document.getElementById('global-stats');
+const elTopicTabs  = document.getElementById('topic-tabs');
 
 // ── Init ───────────────────────────────────────────────────────────────────
 async function init() {
@@ -50,6 +51,11 @@ async function init() {
 
   // Topic selector buttons
   document.querySelectorAll('.ts-card').forEach(btn => {
+    btn.addEventListener('click', () => selectTopic(btn.dataset.topic));
+  });
+
+  // Tab buttons
+  document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', () => selectTopic(btn.dataset.topic));
   });
 
@@ -86,9 +92,10 @@ async function init() {
 
 // ── Topic selection ────────────────────────────────────────────────────────
 function showSelector() {
-  elSelector.style.display = '';
-  elMain.style.display     = 'none';
-  elPBWrap.style.display = 'none';
+  elSelector.style.display  = '';
+  elMain.style.display      = 'none';
+  elPBWrap.style.display    = 'none';
+  elTopicTabs.style.display = 'none';
   elStreak.textContent = '0';
   elScore.textContent  = '0';
   elErrors.textContent = '0';
@@ -113,9 +120,13 @@ function selectTopic(topicId) {
     sessionCorrect = 0; sessionErrors = 0; sessionStreak = 0;
     updateHeaderStats();
 
-    elSelector.style.display = 'none';
-    elMain.style.display     = 'flex';
-    elPBWrap.style.display   = '';
+    elSelector.style.display  = 'none';
+    elMain.style.display      = 'flex';
+    elPBWrap.style.display    = '';
+    elTopicTabs.style.display = '';
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.topic === topicId);
+    });
 
     buildQueue();
     nextPhrase();
