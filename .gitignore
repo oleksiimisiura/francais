@@ -1,6 +1,7 @@
 *.jpeg
 *.jpg
 *.png
+!icons/*.png
 .claude/
 add_translations.py
 website/
