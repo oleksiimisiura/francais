@@ -95,13 +95,7 @@ function showSelector() {
 }
 
 function selectTopic(topicId) {
-  const dbg = document.createElement('div');
-  dbg.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;background:#000d;color:#0f0;font-size:11px;padding:6px 8px;font-family:monospace;white-space:pre-wrap;max-height:50vh;overflow:auto';
-  document.body.appendChild(dbg);
-  const log = msg => { dbg.textContent += msg + '\n'; };
-
   try {
-    log('topic=' + topicId);
     activeTopic = topicId;
 
     if (topicId === 'mixte') {
@@ -112,27 +106,21 @@ function selectTopic(topicId) {
       elTopicTitle.textContent = 'Les deux · Conditionnel';
     } else {
       const topic = data.topics[topicId];
-      log('topic obj=' + (topic ? 'ok' : 'NULL'));
       phrases = topic.phrases.map(p => ({ ...p, _topicId: topicId }));
       elTopicTitle.textContent = topic.title;
     }
-    log('phrases=' + phrases.length);
 
     sessionCorrect = 0; sessionErrors = 0; sessionStreak = 0;
     updateHeaderStats();
 
-    log('elMain=' + (elMain ? elMain.id : 'NULL'));
     elSelector.style.display = 'none';
     elMain.style.display     = 'flex';
-    log('computed=' + window.getComputedStyle(elMain).display);
     elPBWrap.style.display   = '';
 
     buildQueue();
-    log('queue=' + queue.length);
     nextPhrase();
-    log('done');
   } catch(e) {
-    log('ERROR: ' + e.message + '\n' + e.stack);
+    document.body.innerHTML = '<div style="color:#ff5252;padding:40px;font-family:sans-serif;font-size:14px">Erreur: ' + e.message + '<br><br><a href="javascript:location.reload()" style="color:#4fc3f7">Recharger</a></div>';
   }
 }
 
