@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#1a1a2e"/>
+  <text x="96" y="78" font-size="52" font-family="serif" font-weight="bold"
+        text-anchor="middle" fill="#4fc3f7">Si</text>
+  <text x="96" y="118" font-size="18" font-family="sans-serif"
+        text-anchor="middle" fill="#7c4dff">conditionnel</text>
+  <text x="96" y="148" font-size="28" font-family="serif" font-style="italic"
+        text-anchor="middle" fill="#e8eaf6">FR</text>
+</svg>

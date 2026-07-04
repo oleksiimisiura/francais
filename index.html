@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0f0f1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Français — Conditionnel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+  <div id="app">
+
+    <header>
+      <div id="topic-title">Le Conditionnel</div>
+      <div id="header-stats">
+        <span id="stat-streak" class="streak" title="Série en cours">🔥 <span id="streak-val">0</span></span>
+        <span id="stat-score" title="Score de session">✓ <span id="score-val">0</span></span>
+        <span id="stat-errors" title="Erreurs de session">✗ <span id="errors-val">0</span></span>
+      </div>
+      <button id="btn-menu" title="Menu" aria-label="Menu">⋮</button>
+    </header>
+
+    <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+
+    <div id="topic-selector">
+      <div class="ts-header">
+        <div class="ts-flag">🇫🇷</div>
+        <h1>Conjugaison française</h1>
+        <p>Choisissez un exercice</p>
+      </div>
+      <div class="ts-cards">
+        <button class="ts-card" data-topic="conditionnel">
+          <div class="ts-card-title">Conditionnel présent</div>
+          <div class="ts-card-desc">Si + <em>imparfait</em> → <em>conditionnel</em></div>
+          <div class="ts-card-count">50 phrases</div>
+        </button>
+        <button class="ts-card" data-topic="conditionnel_passe">
+          <div class="ts-card-title">Conditionnel passé</div>
+          <div class="ts-card-desc">Si + <em>plus-que-parfait</em> → <em>cond. passé</em></div>
+          <div class="ts-card-count">40 phrases</div>
+        </button>
+        <button class="ts-card ts-card-mix" data-topic="mixte">
+          <div class="ts-card-title">Les deux ensemble</div>
+          <div class="ts-card-desc">Mélange aléatoire des deux</div>
+          <div class="ts-card-count">90 phrases</div>
+        </button>
+      </div>
+    </div>
+
+    <main id="main-area" class="hidden">
+
+      <div id="formula-badge">Si + <em>imparfait</em> → <em>conditionnel</em></div>
+
+      <div id="phrase-card">
+        <div id="phrase-text"></div>
+        <div id="blank-hint"></div>
+      </div>
+
+      <div id="choices-area">
+        <div id="choices-grid"></div>
+        <button id="btn-next" class="hidden">Suivant →</button>
+      </div>
+
+    </main>
+
+    <div id="overlay-done" class="overlay hidden">
+      <div class="overlay-box">
+        <div class="overlay-icon">🎉</div>
+        <div class="overlay-title">Série terminée !</div>
+        <div class="overlay-body" id="cycle-stats"></div>
+        <button id="btn-continue">Continuer</button>
+      </div>
+    </div>
+
+    <div id="overlay-menu" class="overlay hidden">
+      <div class="overlay-box">
+        <h2>Menu</h2>
+        <div id="global-stats"></div>
+        <hr>
+        <button id="btn-change-topic">Changer de thème</button>
+        <button id="btn-reset-progress" class="danger">Réinitialiser la progression</button>
+        <button id="btn-close-menu">Fermer</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

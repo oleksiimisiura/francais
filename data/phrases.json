@@ -1,0 +1,3534 @@
+{
+  "verbs": {
+    "être": {
+      "formes": {
+        "présent": [
+          "suis",
+          "es",
+          "est",
+          "sommes",
+          "êtes",
+          "sont"
+        ],
+        "imparfait": [
+          "étais",
+          "étais",
+          "était",
+          "étions",
+          "étiez",
+          "étaient"
+        ],
+        "futur": [
+          "serai",
+          "seras",
+          "sera",
+          "serons",
+          "serez",
+          "seront"
+        ],
+        "conditionnel": [
+          "serais",
+          "serais",
+          "serait",
+          "serions",
+          "seriez",
+          "seraient"
+        ]
+      }
+    },
+    "avoir": {
+      "formes": {
+        "présent": [
+          "ai",
+          "as",
+          "a",
+          "avons",
+          "avez",
+          "ont"
+        ],
+        "imparfait": [
+          "avais",
+          "avais",
+          "avait",
+          "avions",
+          "aviez",
+          "avaient"
+        ],
+        "futur": [
+          "aurai",
+          "auras",
+          "aura",
+          "aurons",
+          "aurez",
+          "auront"
+        ],
+        "conditionnel": [
+          "aurais",
+          "aurais",
+          "aurait",
+          "aurions",
+          "auriez",
+          "auraient"
+        ]
+      }
+    },
+    "faire": {
+      "formes": {
+        "présent": [
+          "fais",
+          "fais",
+          "fait",
+          "faisons",
+          "faites",
+          "font"
+        ],
+        "imparfait": [
+          "faisais",
+          "faisais",
+          "faisait",
+          "faisions",
+          "faisiez",
+          "faisaient"
+        ],
+        "futur": [
+          "ferai",
+          "feras",
+          "fera",
+          "ferons",
+          "ferez",
+          "feront"
+        ],
+        "conditionnel": [
+          "ferais",
+          "ferais",
+          "ferait",
+          "ferions",
+          "feriez",
+          "feraient"
+        ]
+      }
+    },
+    "aller": {
+      "formes": {
+        "présent": [
+          "vais",
+          "vas",
+          "va",
+          "allons",
+          "allez",
+          "vont"
+        ],
+        "imparfait": [
+          "allais",
+          "allais",
+          "allait",
+          "allions",
+          "alliez",
+          "allaient"
+        ],
+        "futur": [
+          "irai",
+          "iras",
+          "ira",
+          "irons",
+          "irez",
+          "iront"
+        ],
+        "conditionnel": [
+          "irais",
+          "irais",
+          "irait",
+          "irions",
+          "iriez",
+          "iraient"
+        ]
+      }
+    },
+    "vouloir": {
+      "formes": {
+        "présent": [
+          "veux",
+          "veux",
+          "veut",
+          "voulons",
+          "voulez",
+          "veulent"
+        ],
+        "imparfait": [
+          "voulais",
+          "voulais",
+          "voulait",
+          "voulions",
+          "vouliez",
+          "voulaient"
+        ],
+        "futur": [
+          "voudrai",
+          "voudras",
+          "voudra",
+          "voudrons",
+          "voudrez",
+          "voudront"
+        ],
+        "conditionnel": [
+          "voudrais",
+          "voudrais",
+          "voudrait",
+          "voudrions",
+          "voudriez",
+          "voudraient"
+        ]
+      }
+    },
+    "pouvoir": {
+      "formes": {
+        "présent": [
+          "peux",
+          "peux",
+          "peut",
+          "pouvons",
+          "pouvez",
+          "peuvent"
+        ],
+        "imparfait": [
+          "pouvais",
+          "pouvais",
+          "pouvait",
+          "pouvions",
+          "pouviez",
+          "pouvaient"
+        ],
+        "futur": [
+          "pourrai",
+          "pourras",
+          "pourra",
+          "pourrons",
+          "pourrez",
+          "pourront"
+        ],
+        "conditionnel": [
+          "pourrais",
+          "pourrais",
+          "pourrait",
+          "pourrions",
+          "pourriez",
+          "pourraient"
+        ]
+      }
+    },
+    "devoir": {
+      "formes": {
+        "présent": [
+          "dois",
+          "dois",
+          "doit",
+          "devons",
+          "devez",
+          "doivent"
+        ],
+        "imparfait": [
+          "devais",
+          "devais",
+          "devait",
+          "devions",
+          "deviez",
+          "devaient"
+        ],
+        "futur": [
+          "devrai",
+          "devras",
+          "devra",
+          "devrons",
+          "devrez",
+          "devront"
+        ],
+        "conditionnel": [
+          "devrais",
+          "devrais",
+          "devrait",
+          "devrions",
+          "devriez",
+          "devraient"
+        ]
+      }
+    },
+    "savoir": {
+      "formes": {
+        "présent": [
+          "sais",
+          "sais",
+          "sait",
+          "savons",
+          "savez",
+          "savent"
+        ],
+        "imparfait": [
+          "savais",
+          "savais",
+          "savait",
+          "savions",
+          "saviez",
+          "savaient"
+        ],
+        "futur": [
+          "saurai",
+          "sauras",
+          "saura",
+          "saurons",
+          "saurez",
+          "sauront"
+        ],
+        "conditionnel": [
+          "saurais",
+          "saurais",
+          "saurait",
+          "saurions",
+          "sauriez",
+          "sauraient"
+        ]
+      }
+    },
+    "venir": {
+      "formes": {
+        "présent": [
+          "viens",
+          "viens",
+          "vient",
+          "venons",
+          "venez",
+          "viennent"
+        ],
+        "imparfait": [
+          "venais",
+          "venais",
+          "venait",
+          "venions",
+          "veniez",
+          "venaient"
+        ],
+        "futur": [
+          "viendrai",
+          "viendras",
+          "viendra",
+          "viendrons",
+          "viendrez",
+          "viendront"
+        ],
+        "conditionnel": [
+          "viendrais",
+          "viendrais",
+          "viendrait",
+          "viendrions",
+          "viendriez",
+          "viendraient"
+        ]
+      }
+    },
+    "voir": {
+      "formes": {
+        "présent": [
+          "vois",
+          "vois",
+          "voit",
+          "voyons",
+          "voyez",
+          "voient"
+        ],
+        "imparfait": [
+          "voyais",
+          "voyais",
+          "voyait",
+          "voyions",
+          "voyiez",
+          "voyaient"
+        ],
+        "futur": [
+          "verrai",
+          "verras",
+          "verra",
+          "verrons",
+          "verrez",
+          "verront"
+        ],
+        "conditionnel": [
+          "verrais",
+          "verrais",
+          "verrait",
+          "verrions",
+          "verriez",
+          "verraient"
+        ]
+      }
+    },
+    "prendre": {
+      "formes": {
+        "présent": [
+          "prends",
+          "prends",
+          "prend",
+          "prenons",
+          "prenez",
+          "prennent"
+        ],
+        "imparfait": [
+          "prenais",
+          "prenais",
+          "prenait",
+          "prenions",
+          "preniez",
+          "prenaient"
+        ],
+        "futur": [
+          "prendrai",
+          "prendras",
+          "prendra",
+          "prendrons",
+          "prendrez",
+          "prendront"
+        ],
+        "conditionnel": [
+          "prendrais",
+          "prendrais",
+          "prendrait",
+          "prendrions",
+          "prendriez",
+          "prendraient"
+        ]
+      }
+    },
+    "parler": {
+      "formes": {
+        "présent": [
+          "parle",
+          "parles",
+          "parle",
+          "parlons",
+          "parlez",
+          "parlent"
+        ],
+        "imparfait": [
+          "parlais",
+          "parlais",
+          "parlait",
+          "parlions",
+          "parliez",
+          "parlaient"
+        ],
+        "futur": [
+          "parlerai",
+          "parleras",
+          "parlera",
+          "parlerons",
+          "parlerez",
+          "parleront"
+        ],
+        "conditionnel": [
+          "parlerais",
+          "parlerais",
+          "parlerait",
+          "parlerions",
+          "parleriez",
+          "parleraient"
+        ]
+      }
+    },
+    "aimer": {
+      "formes": {
+        "présent": [
+          "aime",
+          "aimes",
+          "aime",
+          "aimons",
+          "aimez",
+          "aiment"
+        ],
+        "imparfait": [
+          "aimais",
+          "aimais",
+          "aimait",
+          "aimions",
+          "aimiez",
+          "aimaient"
+        ],
+        "futur": [
+          "aimerai",
+          "aimeras",
+          "aimera",
+          "aimerons",
+          "aimerez",
+          "aimeront"
+        ],
+        "conditionnel": [
+          "aimerais",
+          "aimerais",
+          "aimerait",
+          "aimerions",
+          "aimeriez",
+          "aimeraient"
+        ]
+      }
+    },
+    "partir": {
+      "formes": {
+        "présent": [
+          "pars",
+          "pars",
+          "part",
+          "partons",
+          "partez",
+          "partent"
+        ],
+        "imparfait": [
+          "partais",
+          "partais",
+          "partait",
+          "partions",
+          "partiez",
+          "partaient"
+        ],
+        "futur": [
+          "partirai",
+          "partiras",
+          "partira",
+          "partirons",
+          "partirez",
+          "partiront"
+        ],
+        "conditionnel": [
+          "partirais",
+          "partirais",
+          "partirait",
+          "partirions",
+          "partiriez",
+          "partiraient"
+        ]
+      }
+    },
+    "finir": {
+      "formes": {
+        "présent": [
+          "finis",
+          "finis",
+          "finit",
+          "finissons",
+          "finissez",
+          "finissent"
+        ],
+        "imparfait": [
+          "finissais",
+          "finissais",
+          "finissait",
+          "finissions",
+          "finissiez",
+          "finissaient"
+        ],
+        "futur": [
+          "finirai",
+          "finiras",
+          "finira",
+          "finirons",
+          "finirez",
+          "finiront"
+        ],
+        "conditionnel": [
+          "finirais",
+          "finirais",
+          "finirait",
+          "finirions",
+          "finiriez",
+          "finiraient"
+        ]
+      }
+    },
+    "mettre": {
+      "formes": {
+        "présent": [
+          "mets",
+          "mets",
+          "met",
+          "mettons",
+          "mettez",
+          "mettent"
+        ],
+        "imparfait": [
+          "mettais",
+          "mettais",
+          "mettait",
+          "mettions",
+          "mettiez",
+          "mettaient"
+        ],
+        "futur": [
+          "mettrai",
+          "mettras",
+          "mettra",
+          "mettrons",
+          "mettrez",
+          "mettront"
+        ],
+        "conditionnel": [
+          "mettrais",
+          "mettrais",
+          "mettrait",
+          "mettrions",
+          "mettriez",
+          "mettraient"
+        ]
+      }
+    },
+    "dire": {
+      "formes": {
+        "présent": [
+          "dis",
+          "dis",
+          "dit",
+          "disons",
+          "dites",
+          "disent"
+        ],
+        "imparfait": [
+          "disais",
+          "disais",
+          "disait",
+          "disions",
+          "disiez",
+          "disaient"
+        ],
+        "futur": [
+          "dirai",
+          "diras",
+          "dira",
+          "dirons",
+          "direz",
+          "diront"
+        ],
+        "conditionnel": [
+          "dirais",
+          "dirais",
+          "dirait",
+          "dirions",
+          "diriez",
+          "diraient"
+        ]
+      }
+    },
+    "comprendre": {
+      "formes": {
+        "présent": [
+          "comprends",
+          "comprends",
+          "comprend",
+          "comprenons",
+          "comprenez",
+          "comprennent"
+        ],
+        "imparfait": [
+          "comprenais",
+          "comprenais",
+          "comprenait",
+          "comprenions",
+          "compreniez",
+          "comprenaient"
+        ],
+        "futur": [
+          "comprendrai",
+          "comprendras",
+          "comprendra",
+          "comprendrons",
+          "comprendrez",
+          "comprendront"
+        ],
+        "conditionnel": [
+          "comprendrais",
+          "comprendrais",
+          "comprendrait",
+          "comprendrions",
+          "comprendriez",
+          "comprendraient"
+        ]
+      }
+    },
+    "attendre": {
+      "formes": {
+        "présent": [
+          "attends",
+          "attends",
+          "attend",
+          "attendons",
+          "attendez",
+          "attendent"
+        ],
+        "imparfait": [
+          "attendais",
+          "attendais",
+          "attendait",
+          "attendions",
+          "attendiez",
+          "attendaient"
+        ],
+        "futur": [
+          "attendrai",
+          "attendras",
+          "attendra",
+          "attendrons",
+          "attendrez",
+          "attendront"
+        ],
+        "conditionnel": [
+          "attendrais",
+          "attendrais",
+          "attendrait",
+          "attendrions",
+          "attendriez",
+          "attendraient"
+        ]
+      }
+    },
+    "trouver": {
+      "formes": {
+        "présent": [
+          "trouve",
+          "trouves",
+          "trouve",
+          "trouvons",
+          "trouvez",
+          "trouvent"
+        ],
+        "imparfait": [
+          "trouvais",
+          "trouvais",
+          "trouvait",
+          "trouvions",
+          "trouviez",
+          "trouvaient"
+        ],
+        "futur": [
+          "trouverai",
+          "trouveras",
+          "trouvera",
+          "trouverons",
+          "trouverez",
+          "trouveront"
+        ],
+        "conditionnel": [
+          "trouverais",
+          "trouverais",
+          "trouverait",
+          "trouverions",
+          "trouveriez",
+          "trouveraient"
+        ]
+      }
+    },
+    "donner": {
+      "formes": {
+        "présent": [
+          "donne",
+          "donnes",
+          "donne",
+          "donnons",
+          "donnez",
+          "donnent"
+        ],
+        "imparfait": [
+          "donnais",
+          "donnais",
+          "donnait",
+          "donnions",
+          "donniez",
+          "donnaient"
+        ],
+        "futur": [
+          "donnerai",
+          "donneras",
+          "donnera",
+          "donnerons",
+          "donnerez",
+          "donneront"
+        ],
+        "conditionnel": [
+          "donnerais",
+          "donnerais",
+          "donnerait",
+          "donnerions",
+          "donneriez",
+          "donneraient"
+        ]
+      }
+    },
+    "acheter": {
+      "formes": {
+        "présent": [
+          "achète",
+          "achètes",
+          "achète",
+          "achetons",
+          "achetez",
+          "achètent"
+        ],
+        "imparfait": [
+          "achetais",
+          "achetais",
+          "achetait",
+          "achetions",
+          "achetiez",
+          "achetaient"
+        ],
+        "futur": [
+          "achèterai",
+          "achèteras",
+          "achètera",
+          "achèterons",
+          "achèterez",
+          "achèteront"
+        ],
+        "conditionnel": [
+          "achèterais",
+          "achèterais",
+          "achèterait",
+          "achèterions",
+          "achèteriez",
+          "achèteraient"
+        ]
+      }
+    },
+    "manger": {
+      "formes": {
+        "présent": [
+          "mange",
+          "manges",
+          "mange",
+          "mangeons",
+          "mangez",
+          "mangent"
+        ],
+        "imparfait": [
+          "mangeais",
+          "mangeais",
+          "mangeait",
+          "mangions",
+          "mangiez",
+          "mangeaient"
+        ],
+        "futur": [
+          "mangerai",
+          "mangeras",
+          "mangera",
+          "mangerons",
+          "mangerez",
+          "mangeront"
+        ],
+        "conditionnel": [
+          "mangerais",
+          "mangerais",
+          "mangerait",
+          "mangerions",
+          "mangeriez",
+          "mangeraient"
+        ]
+      }
+    },
+    "boire": {
+      "formes": {
+        "présent": [
+          "bois",
+          "bois",
+          "boit",
+          "buvons",
+          "buvez",
+          "boivent"
+        ],
+        "imparfait": [
+          "buvais",
+          "buvais",
+          "buvait",
+          "buvions",
+          "buviez",
+          "buvaient"
+        ],
+        "futur": [
+          "boirai",
+          "boiras",
+          "boira",
+          "boirons",
+          "boirez",
+          "boiront"
+        ],
+        "conditionnel": [
+          "boirais",
+          "boirais",
+          "boirait",
+          "boirions",
+          "boiriez",
+          "boiraient"
+        ]
+      }
+    },
+    "dormir": {
+      "formes": {
+        "présent": [
+          "dors",
+          "dors",
+          "dort",
+          "dormons",
+          "dormez",
+          "dorment"
+        ],
+        "imparfait": [
+          "dormais",
+          "dormais",
+          "dormait",
+          "dormions",
+          "dormiez",
+          "dormaient"
+        ],
+        "futur": [
+          "dormirai",
+          "dormiras",
+          "dormira",
+          "dormirons",
+          "dormirez",
+          "dormiront"
+        ],
+        "conditionnel": [
+          "dormirais",
+          "dormirais",
+          "dormirait",
+          "dormirions",
+          "dormiriez",
+          "dormiraient"
+        ]
+      }
+    },
+    "ouvrir": {
+      "formes": {
+        "présent": [
+          "ouvre",
+          "ouvres",
+          "ouvre",
+          "ouvrons",
+          "ouvrez",
+          "ouvrent"
+        ],
+        "imparfait": [
+          "ouvrais",
+          "ouvrais",
+          "ouvrait",
+          "ouvrions",
+          "ouvriez",
+          "ouvraient"
+        ],
+        "futur": [
+          "ouvrirai",
+          "ouvriras",
+          "ouvrira",
+          "ouvrirons",
+          "ouvrirez",
+          "ouvriront"
+        ],
+        "conditionnel": [
+          "ouvrirais",
+          "ouvrirais",
+          "ouvrirait",
+          "ouvririons",
+          "ouvririez",
+          "ouvriraient"
+        ]
+      }
+    },
+    "rester": {
+      "formes": {
+        "présent": [
+          "reste",
+          "restes",
+          "reste",
+          "restons",
+          "restez",
+          "restent"
+        ],
+        "imparfait": [
+          "restais",
+          "restais",
+          "restait",
+          "restions",
+          "restiez",
+          "restaient"
+        ],
+        "futur": [
+          "resterai",
+          "resteras",
+          "restera",
+          "resterons",
+          "resterez",
+          "resteront"
+        ],
+        "conditionnel": [
+          "resterais",
+          "resterais",
+          "resterait",
+          "resterions",
+          "resteriez",
+          "resteraient"
+        ]
+      }
+    },
+    "passer": {
+      "formes": {
+        "présent": [
+          "passe",
+          "passes",
+          "passe",
+          "passons",
+          "passez",
+          "passent"
+        ],
+        "imparfait": [
+          "passais",
+          "passais",
+          "passait",
+          "passions",
+          "passiez",
+          "passaient"
+        ],
+        "futur": [
+          "passerai",
+          "passeras",
+          "passera",
+          "passerons",
+          "passerez",
+          "passeront"
+        ],
+        "conditionnel": [
+          "passerais",
+          "passerais",
+          "passerait",
+          "passerions",
+          "passeriez",
+          "passeraient"
+        ]
+      }
+    },
+    "vivre": {
+      "formes": {
+        "présent": [
+          "vis",
+          "vis",
+          "vit",
+          "vivons",
+          "vivez",
+          "vivent"
+        ],
+        "imparfait": [
+          "vivais",
+          "vivais",
+          "vivait",
+          "vivions",
+          "viviez",
+          "vivaient"
+        ],
+        "futur": [
+          "vivrai",
+          "vivras",
+          "vivra",
+          "vivrons",
+          "vivrez",
+          "vivront"
+        ],
+        "conditionnel": [
+          "vivrais",
+          "vivrais",
+          "vivrait",
+          "vivrions",
+          "vivriez",
+          "vivraient"
+        ]
+      }
+    },
+    "connaître": {
+      "formes": {
+        "présent": [
+          "connais",
+          "connais",
+          "connaît",
+          "connaissons",
+          "connaissez",
+          "connaissent"
+        ],
+        "imparfait": [
+          "connaissais",
+          "connaissais",
+          "connaissait",
+          "connaissions",
+          "connaissiez",
+          "connaissaient"
+        ],
+        "futur": [
+          "connaîtrai",
+          "connaîtras",
+          "connaîtra",
+          "connaîtrons",
+          "connaîtrez",
+          "connaîtront"
+        ],
+        "conditionnel": [
+          "connaîtrais",
+          "connaîtrais",
+          "connaîtrait",
+          "connaîtrions",
+          "connaîtriez",
+          "connaîtraient"
+        ]
+      }
+    },
+    "croire": {
+      "formes": {
+        "présent": [
+          "crois",
+          "crois",
+          "croit",
+          "croyons",
+          "croyez",
+          "croient"
+        ],
+        "imparfait": [
+          "croyais",
+          "croyais",
+          "croyait",
+          "croyions",
+          "croyiez",
+          "croyaient"
+        ],
+        "futur": [
+          "croirai",
+          "croiras",
+          "croira",
+          "croirons",
+          "croirez",
+          "croiront"
+        ],
+        "conditionnel": [
+          "croirais",
+          "croirais",
+          "croirait",
+          "croirions",
+          "croiriez",
+          "croiraient"
+        ]
+      }
+    },
+    "penser": {
+      "formes": {
+        "présent": [
+          "pense",
+          "penses",
+          "pense",
+          "pensons",
+          "pensez",
+          "pensent"
+        ],
+        "imparfait": [
+          "pensais",
+          "pensais",
+          "pensait",
+          "pensions",
+          "pensiez",
+          "pensaient"
+        ],
+        "futur": [
+          "penserai",
+          "penseras",
+          "pensera",
+          "penserons",
+          "penserez",
+          "penseront"
+        ],
+        "conditionnel": [
+          "penserais",
+          "penserais",
+          "penserait",
+          "penserions",
+          "penseriez",
+          "penseraient"
+        ]
+      }
+    },
+    "espérer": {
+      "formes": {
+        "présent": [
+          "espère",
+          "espères",
+          "espère",
+          "espérons",
+          "espérez",
+          "espèrent"
+        ],
+        "imparfait": [
+          "espérais",
+          "espérais",
+          "espérait",
+          "espérions",
+          "espériez",
+          "espéraient"
+        ],
+        "futur": [
+          "espèrerai",
+          "espèreras",
+          "espèrera",
+          "espèrerons",
+          "espèrerez",
+          "espèreront"
+        ],
+        "conditionnel": [
+          "espèrerais",
+          "espèrerais",
+          "espèrerait",
+          "espèrerions",
+          "espèreriez",
+          "espèreraient"
+        ]
+      }
+    },
+    "décider": {
+      "formes": {
+        "présent": [
+          "décide",
+          "décides",
+          "décide",
+          "décidons",
+          "décidez",
+          "décident"
+        ],
+        "imparfait": [
+          "décidais",
+          "décidais",
+          "décidait",
+          "décidions",
+          "décidiez",
+          "décidaient"
+        ],
+        "futur": [
+          "déciderai",
+          "décideras",
+          "décidera",
+          "déciderons",
+          "déciderez",
+          "décideront"
+        ],
+        "conditionnel": [
+          "déciderais",
+          "déciderais",
+          "déciderait",
+          "déciderions",
+          "décideriez",
+          "décideraient"
+        ]
+      }
+    },
+    "voyager": {
+      "formes": {
+        "présent": [
+          "voyage",
+          "voyages",
+          "voyage",
+          "voyageons",
+          "voyagez",
+          "voyagent"
+        ],
+        "imparfait": [
+          "voyageais",
+          "voyageais",
+          "voyageait",
+          "voyagions",
+          "voyagiez",
+          "voyageaient"
+        ],
+        "futur": [
+          "voyagerai",
+          "voyageras",
+          "voyagera",
+          "voyagerons",
+          "voyagerez",
+          "voyageront"
+        ],
+        "conditionnel": [
+          "voyagerais",
+          "voyagerais",
+          "voyagerait",
+          "voyagerions",
+          "voyageriez",
+          "voyageraient"
+        ]
+      }
+    },
+    "travailler": {
+      "formes": {
+        "présent": [
+          "travaille",
+          "travailles",
+          "travaille",
+          "travaillons",
+          "travaillez",
+          "travaillent"
+        ],
+        "imparfait": [
+          "travaillais",
+          "travaillais",
+          "travaillait",
+          "travaillions",
+          "travailliez",
+          "travaillaient"
+        ],
+        "futur": [
+          "travaillerai",
+          "travailleras",
+          "travaillera",
+          "travaillerons",
+          "travaillerez",
+          "travailleront"
+        ],
+        "conditionnel": [
+          "travaillerais",
+          "travaillerais",
+          "travaillerait",
+          "travaillerions",
+          "travailleriez",
+          "travailleraient"
+        ]
+      }
+    },
+    "étudier": {
+      "formes": {
+        "présent": [
+          "étudie",
+          "étudies",
+          "étudie",
+          "étudions",
+          "étudiez",
+          "étudient"
+        ],
+        "imparfait": [
+          "étudiais",
+          "étudiais",
+          "étudiait",
+          "étudiions",
+          "étudiiez",
+          "étudiaient"
+        ],
+        "futur": [
+          "étudierai",
+          "étudieras",
+          "étudiera",
+          "étudierons",
+          "étudierez",
+          "étudieront"
+        ],
+        "conditionnel": [
+          "étudierais",
+          "étudierais",
+          "étudierait",
+          "étudierions",
+          "étudieriez",
+          "étudieraient"
+        ]
+      }
+    },
+    "lire": {
+      "formes": {
+        "présent": [
+          "lis",
+          "lis",
+          "lit",
+          "lisons",
+          "lisez",
+          "lisent"
+        ],
+        "imparfait": [
+          "lisais",
+          "lisais",
+          "lisait",
+          "lisions",
+          "lisiez",
+          "lisaient"
+        ],
+        "futur": [
+          "lirai",
+          "liras",
+          "lira",
+          "lirons",
+          "lirez",
+          "liront"
+        ],
+        "conditionnel": [
+          "lirais",
+          "lirais",
+          "lirait",
+          "lirions",
+          "liriez",
+          "liraient"
+        ]
+      }
+    },
+    "écrire": {
+      "formes": {
+        "présent": [
+          "écris",
+          "écris",
+          "écrit",
+          "écrivons",
+          "écrivez",
+          "écrivent"
+        ],
+        "imparfait": [
+          "écrivais",
+          "écrivais",
+          "écrivait",
+          "écrivions",
+          "écriviez",
+          "écrivaient"
+        ],
+        "futur": [
+          "écrirai",
+          "écriras",
+          "écrira",
+          "écrirons",
+          "écrirez",
+          "écriront"
+        ],
+        "conditionnel": [
+          "écrirais",
+          "écrirais",
+          "écrirait",
+          "écririons",
+          "écririez",
+          "écriraient"
+        ]
+      }
+    },
+    "répondre": {
+      "formes": {
+        "présent": [
+          "réponds",
+          "réponds",
+          "répond",
+          "répondons",
+          "répondez",
+          "répondent"
+        ],
+        "imparfait": [
+          "répondais",
+          "répondais",
+          "répondait",
+          "répondions",
+          "répondiez",
+          "répondaient"
+        ],
+        "futur": [
+          "répondrai",
+          "répondras",
+          "répondra",
+          "répondrons",
+          "répondrez",
+          "répondront"
+        ],
+        "conditionnel": [
+          "répondrais",
+          "répondrais",
+          "répondrait",
+          "répondrions",
+          "répondriez",
+          "répondraient"
+        ]
+      }
+    },
+    "sortir": {
+      "formes": {
+        "présent": [
+          "sors",
+          "sors",
+          "sort",
+          "sortons",
+          "sortez",
+          "sortent"
+        ],
+        "imparfait": [
+          "sortais",
+          "sortais",
+          "sortait",
+          "sortions",
+          "sortiez",
+          "sortaient"
+        ],
+        "futur": [
+          "sortirai",
+          "sortiras",
+          "sortira",
+          "sortirons",
+          "sortirez",
+          "sortiront"
+        ],
+        "conditionnel": [
+          "sortirais",
+          "sortirais",
+          "sortirait",
+          "sortirions",
+          "sortiriez",
+          "sortiraient"
+        ]
+      }
+    },
+    "choisir": {
+      "formes": {
+        "présent": [
+          "choisis",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "choisissez",
+          "choisissent"
+        ],
+        "imparfait": [
+          "choisissais",
+          "choisissais",
+          "choisissait",
+          "choisissions",
+          "choisissiez",
+          "choisissaient"
+        ],
+        "futur": [
+          "choisirai",
+          "choisiras",
+          "choisira",
+          "choisirons",
+          "choisirez",
+          "choisiront"
+        ],
+        "conditionnel": [
+          "choisirais",
+          "choisirais",
+          "choisirait",
+          "choisirions",
+          "choisiriez",
+          "choisiraient"
+        ]
+      }
+    },
+    "tomber": {
+      "formes": {
+        "présent": [
+          "tombe",
+          "tombes",
+          "tombe",
+          "tombons",
+          "tombez",
+          "tombent"
+        ],
+        "imparfait": [
+          "tombais",
+          "tombais",
+          "tombait",
+          "tombions",
+          "tombiez",
+          "tombaient"
+        ],
+        "futur": [
+          "tomberai",
+          "tomberas",
+          "tombera",
+          "tomberons",
+          "tomberez",
+          "tomberont"
+        ],
+        "conditionnel": [
+          "tomberais",
+          "tomberais",
+          "tomberait",
+          "tomberions",
+          "tomberiez",
+          "tomberaient"
+        ]
+      }
+    },
+    "appeler": {
+      "formes": {
+        "présent": [
+          "appelle",
+          "appelles",
+          "appelle",
+          "appelons",
+          "appelez",
+          "appellent"
+        ],
+        "imparfait": [
+          "appelais",
+          "appelais",
+          "appelait",
+          "appelions",
+          "appeliez",
+          "appelaient"
+        ],
+        "futur": [
+          "appellerai",
+          "appelleras",
+          "appellera",
+          "appellerons",
+          "appellerez",
+          "appelleront"
+        ],
+        "conditionnel": [
+          "appellerais",
+          "appellerais",
+          "appellerait",
+          "appellerions",
+          "appelleriez",
+          "appelleraient"
+        ]
+      }
+    },
+    "montrer": {
+      "formes": {
+        "présent": [
+          "montre",
+          "montres",
+          "montre",
+          "montrons",
+          "montrez",
+          "montrent"
+        ],
+        "imparfait": [
+          "montrais",
+          "montrais",
+          "montrait",
+          "montrions",
+          "montriez",
+          "montraient"
+        ],
+        "futur": [
+          "montrerai",
+          "montreras",
+          "montrera",
+          "montrerons",
+          "montrerez",
+          "montreront"
+        ],
+        "conditionnel": [
+          "montrerais",
+          "montrerais",
+          "montrerait",
+          "montrerions",
+          "montreriez",
+          "montreraient"
+        ]
+      }
+    },
+    "chercher": {
+      "formes": {
+        "présent": [
+          "cherche",
+          "cherches",
+          "cherche",
+          "cherchons",
+          "cherchez",
+          "cherchent"
+        ],
+        "imparfait": [
+          "cherchais",
+          "cherchais",
+          "cherchait",
+          "cherchions",
+          "cherchiez",
+          "cherchaient"
+        ],
+        "futur": [
+          "chercherai",
+          "chercheras",
+          "cherchera",
+          "chercherons",
+          "chercherez",
+          "chercheront"
+        ],
+        "conditionnel": [
+          "chercherais",
+          "chercherais",
+          "chercherait",
+          "chercherions",
+          "chercheriez",
+          "chercheraient"
+        ]
+      }
+    }
+  },
+  "topics": {
+    "conditionnel": {
+      "id": "conditionnel",
+      "title": "Le Conditionnel",
+      "description": "Si + imparfait → conditionnel présent",
+      "blankLabels": [
+        "imparfait",
+        "conditionnel"
+      ],
+      "phrases": [
+        {
+          "id": 1,
+          "text": "Si j'{1} riche, j'{2} une grande maison.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "acheter",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I were rich, I would buy a big house."
+        },
+        {
+          "id": 2,
+          "text": "Si tu {1} du temps, tu {2} venir avec moi.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "pouvoir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you had time, you could come with me."
+        },
+        {
+          "id": 3,
+          "text": "S'il {1} beau, nous {2} à la plage.",
+          "blanks": [
+            {
+              "verb": "faire",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "aller",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If the weather were nice, we would go to the beach."
+        },
+        {
+          "id": 4,
+          "text": "Si nous {1} réussir, nous {2} travailler davantage.",
+          "blanks": [
+            {
+              "verb": "vouloir",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "devoir",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we wanted to succeed, we would have to work more."
+        },
+        {
+          "id": 5,
+          "text": "Si vous {1} la vérité, vous {2} tout.",
+          "blanks": [
+            {
+              "verb": "savoir",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "dire",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you knew the truth, you would tell everything."
+        },
+        {
+          "id": 6,
+          "text": "S'ils {1} demain, je {2} mes amis.",
+          "blanks": [
+            {
+              "verb": "venir",
+              "tense": "imparfait",
+              "person": 5
+            },
+            {
+              "verb": "voir",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If they came tomorrow, I would see my friends."
+        },
+        {
+          "id": 7,
+          "text": "Si elle {1} français, elle {2} tout.",
+          "blanks": [
+            {
+              "verb": "parler",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "comprendre",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she spoke French, she would understand everything."
+        },
+        {
+          "id": 8,
+          "text": "Si j'{1} le sport, je {2} du vélo.",
+          "blanks": [
+            {
+              "verb": "aimer",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "faire",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I liked sport, I would ride a bike."
+        },
+        {
+          "id": 9,
+          "text": "Si tu {1} tôt, tu {2} une bonne place.",
+          "blanks": [
+            {
+              "verb": "partir",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "trouver",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you left early, you would find a good spot."
+        },
+        {
+          "id": 10,
+          "text": "Si nous {1} à l'heure, nous {2} ensemble.",
+          "blanks": [
+            {
+              "verb": "finir",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "sortir",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we finished on time, we would go out together."
+        },
+        {
+          "id": 11,
+          "text": "Si tu {1} ton manteau, tu n'{2} pas froid.",
+          "blanks": [
+            {
+              "verb": "mettre",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you put on your coat, you wouldn't be cold."
+        },
+        {
+          "id": 12,
+          "text": "Si elle {1} la vérité, tout {2} mieux.",
+          "blanks": [
+            {
+              "verb": "dire",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "aller",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she told the truth, everything would go better."
+        },
+        {
+          "id": 13,
+          "text": "Si vous {1} un peu, vous {2} la différence.",
+          "blanks": [
+            {
+              "verb": "attendre",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "voir",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you waited a bit, you would see the difference."
+        },
+        {
+          "id": 14,
+          "text": "Si je {1} un emploi, je {2} à Paris.",
+          "blanks": [
+            {
+              "verb": "trouver",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "vivre",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I found a job, I would live in Paris."
+        },
+        {
+          "id": 15,
+          "text": "Si tu {1} plus d'efforts, tu {2} mieux tes priorités.",
+          "blanks": [
+            {
+              "verb": "donner",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "choisir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you put in more effort, you would choose your priorities better."
+        },
+        {
+          "id": 16,
+          "text": "Si nous {1} cette voiture, nous {2} plus souvent.",
+          "blanks": [
+            {
+              "verb": "acheter",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "voyager",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we bought this car, we would travel more often."
+        },
+        {
+          "id": 17,
+          "text": "Si elle {1} moins de sucre, elle {2} plus en forme.",
+          "blanks": [
+            {
+              "verb": "manger",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she ate less sugar, she would be in better shape."
+        },
+        {
+          "id": 18,
+          "text": "Si tu {1} moins de café, tu {2} mieux.",
+          "blanks": [
+            {
+              "verb": "boire",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "dormir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you drank less coffee, you would sleep better."
+        },
+        {
+          "id": 19,
+          "text": "S'il {1} plus, il {2} mieux.",
+          "blanks": [
+            {
+              "verb": "dormir",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "travailler",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If he slept more, he would work better."
+        },
+        {
+          "id": 20,
+          "text": "Si vous {1} la fenêtre, vous {2} la mer.",
+          "blanks": [
+            {
+              "verb": "ouvrir",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "voir",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you opened the window, you would see the sea."
+        },
+        {
+          "id": 21,
+          "text": "Si je {1} à la maison, je {2} plus.",
+          "blanks": [
+            {
+              "verb": "rester",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "lire",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I stayed at home, I would read more."
+        },
+        {
+          "id": 22,
+          "text": "Si tu {1} par ici, tu {2} quelque chose d'intéressant.",
+          "blanks": [
+            {
+              "verb": "passer",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "voir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you came this way, you would see something interesting."
+        },
+        {
+          "id": 23,
+          "text": "Si nous {1} à la campagne, nous {2} plus heureux.",
+          "blanks": [
+            {
+              "verb": "vivre",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we lived in the countryside, we would be happier."
+        },
+        {
+          "id": 24,
+          "text": "Si vous {1} cet endroit, vous l'{2}.",
+          "blanks": [
+            {
+              "verb": "connaître",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "aimer",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you knew this place, you would love it."
+        },
+        {
+          "id": 25,
+          "text": "S'ils {1} en eux, ils {2} davantage.",
+          "blanks": [
+            {
+              "verb": "croire",
+              "tense": "imparfait",
+              "person": 5
+            },
+            {
+              "verb": "finir",
+              "tense": "conditionnel",
+              "person": 5
+            }
+          ],
+          "translation": "If they believed in themselves, they would achieve more."
+        },
+        {
+          "id": 26,
+          "text": "Si tu {1} à l'avenir, tu {2} mieux.",
+          "blanks": [
+            {
+              "verb": "penser",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "choisir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you thought about the future, you would choose better."
+        },
+        {
+          "id": 27,
+          "text": "Si j'{1} partir, je {2} mes billets maintenant.",
+          "blanks": [
+            {
+              "verb": "espérer",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "prendre",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I hoped to leave, I would buy my tickets now."
+        },
+        {
+          "id": 28,
+          "text": "Si vous {1} de changer, vous {2} une solution.",
+          "blanks": [
+            {
+              "verb": "décider",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "trouver",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you decided to work, you would find a solution."
+        },
+        {
+          "id": 29,
+          "text": "Si nous {1} ensemble, nous {2} français tout le temps.",
+          "blanks": [
+            {
+              "verb": "voyager",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "parler",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we travelled together, we would speak French all the time."
+        },
+        {
+          "id": 30,
+          "text": "Si elle {1} davantage, elle {2} ses examens.",
+          "blanks": [
+            {
+              "verb": "travailler",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "finir",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she worked more, she would finish her exams."
+        },
+        {
+          "id": 31,
+          "text": "Si tu {1} plus, tu {2} mieux.",
+          "blanks": [
+            {
+              "verb": "étudier",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "comprendre",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you studied more, you would understand better."
+        },
+        {
+          "id": 32,
+          "text": "S'il {1} les instructions, il {2} comment faire.",
+          "blanks": [
+            {
+              "verb": "lire",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "savoir",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If he read the instructions, he would know how to do it."
+        },
+        {
+          "id": 33,
+          "text": "Si tu {1} davantage, tu {2} plus.",
+          "blanks": [
+            {
+              "verb": "écrire",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "travailler",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you wrote more, you would work more."
+        },
+        {
+          "id": 34,
+          "text": "Si vous {1} aux messages, nous vous {2} moins souvent.",
+          "blanks": [
+            {
+              "verb": "répondre",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "appeler",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If you replied to messages, we would call you less often."
+        },
+        {
+          "id": 35,
+          "text": "Si je {1} plus souvent, je {2} de nouvelles choses.",
+          "blanks": [
+            {
+              "verb": "sortir",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "voir",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I went out more often, I would see new things."
+        },
+        {
+          "id": 36,
+          "text": "Si tu {1} mieux tes amis, tu {2} plus heureux.",
+          "blanks": [
+            {
+              "verb": "choisir",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you chose your friends better, you would be happier."
+        },
+        {
+          "id": 37,
+          "text": "Si elle {1} malade, elle {2} chez elle.",
+          "blanks": [
+            {
+              "verb": "tomber",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "rester",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she fell ill, she would stay at home."
+        },
+        {
+          "id": 38,
+          "text": "Si tu {1} ta mère, elle {2} contente.",
+          "blanks": [
+            {
+              "verb": "appeler",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If you called your mother, she would be happy."
+        },
+        {
+          "id": 39,
+          "text": "S'il {1} plus d'intérêt, il {2} mieux.",
+          "blanks": [
+            {
+              "verb": "montrer",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "comprendre",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If he showed more interest, he would understand better."
+        },
+        {
+          "id": 40,
+          "text": "Si nous {1} bien, nous {2} une solution.",
+          "blanks": [
+            {
+              "verb": "chercher",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "trouver",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we looked carefully, we would find a solution."
+        },
+        {
+          "id": 41,
+          "text": "Si tu {1} faim, tu {2} quelque chose.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "manger",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you were hungry, you would eat something."
+        },
+        {
+          "id": 42,
+          "text": "Si elle {1} du sport, elle {2} mieux.",
+          "blanks": [
+            {
+              "verb": "faire",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "dormir",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she did sport, she would sleep better."
+        },
+        {
+          "id": 43,
+          "text": "Si j'{1} en France, je {2} français.",
+          "blanks": [
+            {
+              "verb": "aller",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "parler",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I went to France, I would speak French."
+        },
+        {
+          "id": 44,
+          "text": "Si vous {1} changer, vous {2} le faire.",
+          "blanks": [
+            {
+              "verb": "vouloir",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "pouvoir",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you wanted to change, you could do it."
+        },
+        {
+          "id": 45,
+          "text": "S'il {1} choisir, il {2} le premier.",
+          "blanks": [
+            {
+              "verb": "devoir",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "prendre",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If he had to choose, he would take the first one."
+        },
+        {
+          "id": 46,
+          "text": "Si tu {1} nager, tu {2} venir à la mer.",
+          "blanks": [
+            {
+              "verb": "savoir",
+              "tense": "imparfait",
+              "person": 1
+            },
+            {
+              "verb": "pouvoir",
+              "tense": "conditionnel",
+              "person": 1
+            }
+          ],
+          "translation": "If you knew how to swim, you could come to the sea."
+        },
+        {
+          "id": 47,
+          "text": "Si elle {1} avec nous, ce {2} parfait.",
+          "blanks": [
+            {
+              "verb": "venir",
+              "tense": "imparfait",
+              "person": 2
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 2
+            }
+          ],
+          "translation": "If she came with us, it would be perfect."
+        },
+        {
+          "id": 48,
+          "text": "Si je {1} une erreur, je la {2}.",
+          "blanks": [
+            {
+              "verb": "voir",
+              "tense": "imparfait",
+              "person": 0
+            },
+            {
+              "verb": "dire",
+              "tense": "conditionnel",
+              "person": 0
+            }
+          ],
+          "translation": "If I saw a mistake, I would say it."
+        },
+        {
+          "id": 49,
+          "text": "Si nous {1} le bus, nous {2} par le centre.",
+          "blanks": [
+            {
+              "verb": "prendre",
+              "tense": "imparfait",
+              "person": 3
+            },
+            {
+              "verb": "passer",
+              "tense": "conditionnel",
+              "person": 3
+            }
+          ],
+          "translation": "If we took the bus, we would go through the centre."
+        },
+        {
+          "id": 50,
+          "text": "Si vous {1} la leçon, vous {2} mieux aux questions.",
+          "blanks": [
+            {
+              "verb": "comprendre",
+              "tense": "imparfait",
+              "person": 4
+            },
+            {
+              "verb": "répondre",
+              "tense": "conditionnel",
+              "person": 4
+            }
+          ],
+          "translation": "If you understood the lesson, you would answer the questions better."
+        }
+      ]
+    },
+    "conditionnel_passe": {
+      "id": "conditionnel_passe",
+      "title": "Conditionnel Passé",
+      "description": "Si + plus-que-parfait → conditionnel passé",
+      "blankLabels": [
+        "plus-que-parfait (aux.)",
+        "conditionnel passé (aux.)"
+      ],
+      "phrases": [
+        {
+          "id": 101,
+          "text": "Si j'{1} fait attention, je n'{2} pas fait d'erreur.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had been careful, I wouldn't have made a mistake."
+        },
+        {
+          "id": 102,
+          "text": "Si tu {1} eu plus de temps, tu {2} pu le faire.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had had more time, you could have done it."
+        },
+        {
+          "id": 103,
+          "text": "S'il {1} pris le train, il {2} évité les embouteillages.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had taken the train, he would have avoided the traffic jams."
+        },
+        {
+          "id": 104,
+          "text": "Si vous {1} dit la vérité, tout {2} été plus simple.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had told the truth, everything would have been simpler."
+        },
+        {
+          "id": 105,
+          "text": "Si tu {1} vu ce film, tu l'{2} adoré.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had seen this film, you would have loved it."
+        },
+        {
+          "id": 106,
+          "text": "Si elle {1} mangé à midi, elle n'{2} pas eu faim.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If she had eaten at noon, she wouldn't have been hungry."
+        },
+        {
+          "id": 107,
+          "text": "S'il {1} bu moins, il {2} mieux conduit.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had drunk less, he would have driven better."
+        },
+        {
+          "id": 108,
+          "text": "Si vous {1} lu les instructions, vous n'{2} pas fait d'erreur.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had read the instructions, you wouldn't have made a mistake."
+        },
+        {
+          "id": 109,
+          "text": "Si j'{1} écrit plus tôt, j'{2} reçu une réponse.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had written earlier, I would have received a reply."
+        },
+        {
+          "id": 110,
+          "text": "Si tu {1} compris la leçon, tu {2} réussi l'examen.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had understood the lesson, you would have passed the exam."
+        },
+        {
+          "id": 111,
+          "text": "S'il {1} mis son manteau, il n'{2} pas eu froid.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had put on his coat, he wouldn't have been cold."
+        },
+        {
+          "id": 112,
+          "text": "Si nous {1} ouvert la fenêtre, nous {2} eu moins chaud.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If we had opened the window, we would have been less hot."
+        },
+        {
+          "id": 113,
+          "text": "Si j'{1} acheté ce billet, j'{2} pu voyager.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had bought that ticket, I could have travelled."
+        },
+        {
+          "id": 114,
+          "text": "Si tu {1} travaillé plus sérieusement, tu {2} réussi.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had worked more seriously, you would have succeeded."
+        },
+        {
+          "id": 115,
+          "text": "S'il {1} dormi suffisamment, il {2} été plus en forme.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had slept enough, he would have been in better shape."
+        },
+        {
+          "id": 116,
+          "text": "Si vous {1} choisi plus tôt, vous {2} eu plus de temps.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had chosen earlier, you would have had more time."
+        },
+        {
+          "id": 117,
+          "text": "Si nous {1} fini à temps, nous {2} pu sortir.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If we had finished on time, we could have gone out."
+        },
+        {
+          "id": 118,
+          "text": "S'ils {1} donné leur accord, nous {2} commencé le projet.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 5,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If they had given their approval, we would have started the project."
+        },
+        {
+          "id": 119,
+          "text": "Si tu {1} cherché, tu {2} trouvé.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had looked, you would have found it."
+        },
+        {
+          "id": 120,
+          "text": "Si j'{1} appelé un taxi, j'{2} été à l'heure.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had called a taxi, I would have been on time."
+        },
+        {
+          "id": 121,
+          "text": "Si elle {1} partie plus tôt, elle {2} arrivée à l'heure.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "être",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If she had left earlier, she would have arrived on time."
+        },
+        {
+          "id": 122,
+          "text": "Si tu {1} venu, tu {2} vu la pièce.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had come, you would have seen the play."
+        },
+        {
+          "id": 123,
+          "text": "S'il {1} allé au restaurant, il {2} mangé quelque chose.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had gone to the restaurant, he would have eaten something."
+        },
+        {
+          "id": 124,
+          "text": "Si vous {1} restés, vous {2} fini le projet.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had stayed, you would have finished the project."
+        },
+        {
+          "id": 125,
+          "text": "Si nous {1} sortis, nous {2} rencontré des amis.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If we had gone out, we would have met some friends."
+        },
+        {
+          "id": 126,
+          "text": "S'il {1} tombé, il {2} appelé une ambulance.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had fallen, he would have called an ambulance."
+        },
+        {
+          "id": 127,
+          "text": "Si tu {1} entré dans la pièce, tu {2} vu la surprise.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had entered the room, you would have seen the surprise."
+        },
+        {
+          "id": 128,
+          "text": "Si nous {1} partis à l'heure, nous {2} pris le train.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If we had left on time, we would have caught the train."
+        },
+        {
+          "id": 129,
+          "text": "S'ils {1} venus, ils {2} pu rencontrer le directeur.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 5,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 5,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If they had come, they could have met the director."
+        },
+        {
+          "id": 130,
+          "text": "Si vous {1} allés en France, vous {2} trouvé de bons restaurants.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had gone to France, you would have found good restaurants."
+        },
+        {
+          "id": 131,
+          "text": "S'il {1} né en France, il {2} vécu différemment.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If he had been born in France, he would have lived differently."
+        },
+        {
+          "id": 132,
+          "text": "Si tu {1} arrivé plus tôt, tu {2} pu nous aider.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had arrived earlier, you could have helped us."
+        },
+        {
+          "id": 133,
+          "text": "Si j'{1} resté à la maison, j'{2} travaillé toute la journée.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had stayed at home, I would have worked all day."
+        },
+        {
+          "id": 134,
+          "text": "S'il {1} fait beau, nous {2} pu sortir.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 3,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If the weather had been nice, we could have gone out."
+        },
+        {
+          "id": 135,
+          "text": "Si tu {1} vu le film, tu {2} pu en parler.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 1,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had seen the film, you could have talked about it."
+        },
+        {
+          "id": 136,
+          "text": "Si vous {1} pris la bonne décision, vous {2} réussi.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had made the right decision, you would have succeeded."
+        },
+        {
+          "id": 137,
+          "text": "S'ils {1} écouté les conseils, ils {2} compris.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 5,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 5,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If they had listened to the advice, they would have understood."
+        },
+        {
+          "id": 138,
+          "text": "Si elle {1} partie en vacances, elle {2} bronzé.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 2,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If she had gone on holiday, she would have got a tan."
+        },
+        {
+          "id": 139,
+          "text": "Si vous {1} venus, vous {2} vu le spectacle.",
+          "blanks": [
+            {
+              "verb": "être",
+              "tense": "imparfait",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 4,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If you had come, you would have seen the show."
+        },
+        {
+          "id": 140,
+          "text": "Si j'{1} su cela, je n'{2} pas fait cette erreur.",
+          "blanks": [
+            {
+              "verb": "avoir",
+              "tense": "imparfait",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            },
+            {
+              "verb": "avoir",
+              "tense": "conditionnel",
+              "person": 0,
+              "distractorVerbs": [
+                "avoir",
+                "être"
+              ]
+            }
+          ],
+          "translation": "If I had known that, I wouldn't have made that mistake."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+*.jpeg
+*.jpg
+*.png
+.claude/
+add_translations.py
+website/
