@@ -85,7 +85,7 @@ async function init() {
     navigator.serviceWorker.getRegistrations().then(regs => {
       regs.forEach(r => r.unregister());
     }).then(() => {
-      navigator.serviceWorker.register('sw.js?v=9').catch(() => {});
+      navigator.serviceWorker.register('sw.js?v=12').catch(() => {});
     });
   }
 }
