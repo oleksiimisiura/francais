@@ -80,8 +80,8 @@ async function init() {
 
 // ── Topic selection ────────────────────────────────────────────────────────
 function showSelector() {
-  elSelector.classList.remove('hidden');
-  elMain.classList.add('hidden');
+  elSelector.style.display = '';
+  elMain.style.display     = 'none';
   elPBWrap.style.display = 'none';
   elStreak.textContent = '0';
   elScore.textContent  = '0';
@@ -107,9 +107,9 @@ function selectTopic(topicId) {
     sessionCorrect = 0; sessionErrors = 0; sessionStreak = 0;
     updateHeaderStats();
 
-    elSelector.classList.add('hidden');
-    elMain.classList.remove('hidden');
-    elPBWrap.style.display = '';
+    elSelector.style.display = 'none';
+    elMain.style.display     = 'flex';
+    elPBWrap.style.display   = '';
 
     buildQueue();
     nextPhrase();
