@@ -219,9 +219,9 @@ function renderPhrase() {
   const inf2 = cur.blanks[1].verb;
   let html = escapeHtml(cur.text);
   html = html.replace(/\{1\}/g,
-    `<span id="blank-1" class="blank active">___ <em class="binf">(${inf1})</em></span>`);
+    `<span id="blank-1" class="blank active"> <em class="binf">(${inf1})</em> </span>`);
   html = html.replace(/\{2\}/g,
-    `<span id="blank-2" class="blank locked">··· <em class="binf">(${inf2})</em></span>`);
+    `<span id="blank-2" class="blank locked"> <em class="binf">(${inf2})</em> </span>`);
   const tr = cur.translation ? `<div class="phrase-translation">${escapeHtml(cur.translation)}</div>` : '';
   elPhrase.innerHTML = html + tr;
 }
@@ -298,7 +298,7 @@ function onChoice(btn, chosen, correct) {
         step = 1;
         const inf2 = cur.blanks[1].verb;
         const el2 = document.getElementById('blank-2');
-        if (el2) { el2.className = 'blank active'; el2.innerHTML = `___ <em class="binf">(${inf2})</em>`; }
+        if (el2) { el2.className = 'blank active'; el2.innerHTML = ` <em class="binf">(${inf2})</em> `; }
         renderHint();
         renderChoices();
       }, 400);
