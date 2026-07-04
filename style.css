@@ -330,6 +330,39 @@ header {
   80%       { transform: translateX(4px); }
 }
 
+/* ── Blank infinitive hint ── */
+.binf {
+  font-size: 0.72em;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+/* ── Grammar schema ── */
+#grammar-schema {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid #ffffff0a;
+  border-radius: var(--radius);
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+#grammar-schema:empty { display: none; }
+.gs-tense {
+  color: var(--accent);
+  font-weight: 600;
+}
+.gs-sub {
+  font-size: 0.78rem;
+  color: #ffffff30;
+  margin-top: 3px;
+}
+
 /* ── Next button ── */
 #btn-next {
   width: 100%;

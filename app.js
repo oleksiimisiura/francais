@@ -195,12 +195,33 @@ function nextPhrase() {
   renderHint();
   renderChoices();
   updateProgressBar();
+  updateGrammarSchema();
+}
+
+function updateGrammarSchema() {
+  const el = document.getElementById('grammar-schema');
+  if (!el) return;
+  const topicId = cur._topicId || activeTopic;
+  if (topicId === 'conditionnel') {
+    el.innerHTML =
+      'Si + <span class="gs-tense">imparfait</span>' +
+      ' &rarr; <span class="gs-tense">conditionnel présent</span>';
+  } else {
+    el.innerHTML =
+      'Si + <span class="gs-tense">plus-que-parfait</span>' +
+      ' &rarr; <span class="gs-tense">conditionnel passé</span>' +
+      '<div class="gs-sub">(avoir / être + p.p.) &rarr; (avoir / être + p.p.)</div>';
+  }
 }
 
 function renderPhrase() {
+  const inf1 = cur.blanks[0].verb;
+  const inf2 = cur.blanks[1].verb;
   let html = escapeHtml(cur.text);
-  html = html.replace(/\{1\}/g, `<span id="blank-1" class="blank ${step === 0 ? 'active' : 'correct'}">___</span>`);
-  html = html.replace(/\{2\}/g, `<span id="blank-2" class="blank locked">···</span>`);
+  html = html.replace(/\{1\}/g,
+    `<span id="blank-1" class="blank active">___ <em class="binf">(${inf1})</em></span>`);
+  html = html.replace(/\{2\}/g,
+    `<span id="blank-2" class="blank locked">··· <em class="binf">(${inf2})</em></span>`);
   const tr = cur.translation ? `<div class="phrase-translation">${escapeHtml(cur.translation)}</div>` : '';
   elPhrase.innerHTML = html + tr;
 }
@@ -275,7 +296,9 @@ function onChoice(btn, chosen, correct) {
       setBlankText('blank-1', correct, 'correct');
       setTimeout(() => {
         step = 1;
-        setBlankText('blank-2', '___', 'active');
+        const inf2 = cur.blanks[1].verb;
+        const el2 = document.getElementById('blank-2');
+        if (el2) { el2.className = 'blank active'; el2.innerHTML = `___ <em class="binf">(${inf2})</em>`; }
         renderHint();
         renderChoices();
       }, 400);
