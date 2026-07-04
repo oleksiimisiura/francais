@@ -80,42 +80,42 @@ async function init() {
 
 // ── Topic selection ────────────────────────────────────────────────────────
 function showSelector() {
-  elSelector.classList.remove('hidden');
-  elMain.classList.add('hidden');
-  elPBWrap.style.display = 'none';
-  // Reset session stats display when returning to selector
+  elSelector.style.display = '';
+  elMain.style.display     = 'none';
+  elPBWrap.style.display   = 'none';
   elStreak.textContent = '0';
   elScore.textContent  = '0';
   elErrors.textContent = '0';
 }
 
 function selectTopic(topicId) {
-  activeTopic = topicId;
+  try {
+    activeTopic = topicId;
 
-  if (topicId === 'mixte') {
-    // Merge both topics, tag each phrase with its source topicId
-    phrases = [
-      ...data.topics.conditionnel.phrases.map(p => ({ ...p, _topicId: 'conditionnel' })),
-      ...data.topics.conditionnel_passe.phrases.map(p => ({ ...p, _topicId: 'conditionnel_passe' }))
-    ];
-    elTopicTitle.textContent  = 'Les deux · Conditionnel';
-    elFormula.innerHTML = '<em>présent</em> + <em>passé</em> mélangés';
-  } else {
-    const topic = data.topics[topicId];
-    phrases = topic.phrases.map(p => ({ ...p, _topicId: topicId }));
-    elTopicTitle.textContent  = topic.title;
+    if (topicId === 'mixte') {
+      phrases = [
+        ...data.topics.conditionnel.phrases.map(p => ({ ...p, _topicId: 'conditionnel' })),
+        ...data.topics.conditionnel_passe.phrases.map(p => ({ ...p, _topicId: 'conditionnel_passe' }))
+      ];
+      elTopicTitle.textContent = 'Les deux · Conditionnel';
+    } else {
+      const topic = data.topics[topicId];
+      phrases = topic.phrases.map(p => ({ ...p, _topicId: topicId }));
+      elTopicTitle.textContent = topic.title;
+    }
+
+    sessionCorrect = 0; sessionErrors = 0; sessionStreak = 0;
+    updateHeaderStats();
+
+    elSelector.style.display = 'none';
+    elMain.style.display     = '';
+    elPBWrap.style.display   = '';
+
+    buildQueue();
+    nextPhrase();
+  } catch(e) {
+    document.body.innerHTML = '<div style="color:#ff5252;padding:40px;font-family:sans-serif;font-size:14px">Erreur: ' + e.message + '<br><br>' + e.stack + '<br><br><a href="javascript:location.reload()" style="color:#4fc3f7">Recharger</a></div>';
   }
-
-  // Reset session counters
-  sessionCorrect = 0; sessionErrors = 0; sessionStreak = 0;
-  updateHeaderStats();
-
-  elSelector.classList.add('hidden');
-  elMain.classList.remove('hidden');
-  elPBWrap.style.display = '';
-
-  buildQueue();
-  nextPhrase();
 }
 
 // ── Progress persistence ───────────────────────────────────────────────────
