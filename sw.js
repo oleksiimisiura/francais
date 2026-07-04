@@ -1,11 +1,11 @@
-const CACHE = 'francais-v4';
+const CACHE = 'francais-v5';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/data/phrases.json',
-  '/manifest.json'
+  './',
+  './index.html',
+  './style.css',
+  './app.js',
+  './data/phrases.json',
+  './manifest.json'
 ];
 
 self.addEventListener('install', e => {

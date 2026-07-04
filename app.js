@@ -39,7 +39,12 @@ const elGlobalStats= document.getElementById('global-stats');
 
 // ── Init ───────────────────────────────────────────────────────────────────
 async function init() {
-  data = await fetch('data/phrases.json').then(r => r.json());
+  try {
+    data = await fetch('data/phrases.json').then(r => r.json());
+  } catch(e) {
+    document.body.innerHTML = '<div style="color:#ff5252;padding:40px;font-family:sans-serif">Erreur de chargement : ' + e.message + '<br><br><a href="javascript:location.reload()" style="color:#4fc3f7">Réessayer</a></div>';
+    return;
+  }
   loadProgress();
   showSelector();
 
