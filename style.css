@@ -157,17 +157,6 @@ header {
   gap: 20px;
 }
 
-#formula-badge {
-  font-size: 0.78rem;
-  color: var(--muted);
-  background: var(--surface);
-  border: 1px solid #ffffff0f;
-  border-radius: 20px;
-  padding: 4px 14px;
-  letter-spacing: 0.04em;
-}
-#formula-badge em { color: var(--accent); font-style: normal; }
-
 /* ── Phrase card ── */
 #phrase-card {
   width: 100%;

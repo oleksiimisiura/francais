@@ -32,7 +32,6 @@ const elStreak    = document.getElementById('streak-val');
 const elScore     = document.getElementById('score-val');
 const elErrors    = document.getElementById('errors-val');
 const elTopicTitle= document.getElementById('topic-title');
-const elFormula   = document.getElementById('formula-badge');
 const elOverlayDone= document.getElementById('overlay-done');
 const elCycleStats = document.getElementById('cycle-stats');
 const elOverlayMenu= document.getElementById('overlay-menu');
@@ -100,10 +99,6 @@ function selectTopic(topicId) {
     const topic = data.topics[topicId];
     phrases = topic.phrases.map(p => ({ ...p, _topicId: topicId }));
     elTopicTitle.textContent  = topic.title;
-    elFormula.innerHTML = topic.description
-      .replace(/imparfait/g, '<em>imparfait</em>')
-      .replace(/conditionnel/g, '<em>conditionnel</em>')
-      .replace(/plus-que-parfait/g, '<em>plus-que-parfait</em>');
   }
 
   // Reset session counters
